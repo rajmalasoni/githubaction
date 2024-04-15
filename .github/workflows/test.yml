@@ -1,5 +1,7 @@
 name: testing github workflows
-on: push
+on: 
+  pull_request:
+    types: [opened, edited, reopened]
 
 permissions: write-all
 jobs:
@@ -9,4 +11,7 @@ jobs:
         - name: testing bash script
           run : |
               echo "Hello world"
+              ls
+              pwd
+              sh ./temp.sh
 
