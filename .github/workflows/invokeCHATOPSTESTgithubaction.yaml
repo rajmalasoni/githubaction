@@ -9,4 +9,4 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3  # This is a built-in action from GitHub
       - name: Use Shared Action
-        uses: rajmalasoni/CHATOPSTEST@2.1.0.0  # Replace with the owner and repository name where the action is published, and the version tag
+        uses: rajmalasoni/CHATOPSTEST@2.2.0.0 # Replace with the owner and repository name where the action is published, and the version tag
